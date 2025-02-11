@@ -1,0 +1,468 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Ensures padding & border don't affect element width/height */
+}
+
+/* Set base font size & family */
+body {
+  font-family: 'Arial', sans-serif;
+  /* Change as per your design */
+  font-size: 12px;
+  /* line-height: 1.6; */
+  color: white;
+  /* Default text color */
+  background-color: white;
+  /* Light background */
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+hero-section {
+  height: 300px;
+  width: 100vw;
+  border: 5px solid black;
+
+}
+
+.hero-section {
+  background-image: url('eduford_img/banner.png');
+  /* Ensure correct path */
+  background-size: cover;
+  /* Covers the entire div */
+  background-position: center;
+  /* Centers the image */
+  background-repeat: no-repeat;
+  /* Prevents repetition */
+  background-attachment: fixed;
+  /* Optional: Keeps it fixed on scroll */
+}
+
+.hero-section-para {
+
+  font-size: 50px;
+  margin-top: 150px;
+  font-weight: 700;
+  color: white;
+}
+
+
+/* for aboutpage  */
+.hero-section-para-for-about-page {
+
+  font-size: 40px;
+  /* margin-top: 150px; */
+  font-weight: 700;
+  color: white;
+}
+
+
+@media (max-width:500px) {
+
+  .hero-section-para {
+    font-size: 35px;
+  }
+
+}
+
+.nav-link:hover {
+
+  color: blue;
+
+
+}
+
+.nav-link:active {
+
+  /* color: blue; */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  /* Shadow on hover */
+  transform: translateY(-5px);
+  /* Optional: lift the card */
+
+
+}
+
+/* for hover efferct */
+.courses-card {
+
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+
+}
+
+.courses-card:hover {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  /* Shadow on hover */
+  transform: translateY(-5px);
+  /* Optional: lift the card */
+}
+
+.courses-card:active {
+  box-shadow: 0px 4px 15px blue;
+  /* Shadow on hover */
+  transform: translateY(-5px);
+  /* Optional: lift the card */
+}
+
+
+/* our glabal campus */
+
+.our-global-capus-img {
+  
+  object-fit: cover;
+  /* Ensures images cover the container */
+  height: 100%;
+  /* Ensures image height fits the container */
+  width: 100%;
+  /* Ensures image width fits the container */
+  background-size: cover;
+  
+}
+
+/* Our-global-Campus-for-mobile-view */
+
+.Our-global-Campus-for-mobile-view{
+
+  /* object-fit: cover; */
+  /* Ensures images cover the container */
+  height: 100%;
+  /* Ensures image height fits the container */
+  width: 100%;
+  /* Ensures image width fits the container */
+  background-size: cover;
+
+  background-size: 50%;
+
+}
+
+
+/* What our Students Says */
+.student-imgs {
+
+  border-radius: 50%;
+
+}
+
+.star-rating i {
+
+  color: #FFD700;
+  /* Gold color for the stars */
+  margin-right: 5px;
+
+}
+
+.social-media-handles {
+  color: red;
+  /* Gold color for the stars */
+  margin-right: 5px;
+
+
+}
+
+/* Contact-Us-Div */
+.Contact-Us-Div {
+
+  background-image: url('eduford_img/banner2.jpg');
+
+  /* Ensure correct path */
+  background-size: cover;
+  /* Covers the entire div */
+  background-position: center;
+  /* Centers the image */
+  background-repeat: no-repeat;
+  /* Prevents repetition */
+  /* background-attachment: fixed; */
+  /* Optional: Keeps it fixed on scroll */
+
+  /* object-fit: cover; */
+  /* height: 500px; */
+  /* Ensures image height fits the container */
+  /* width: 100; */
+  /* margin: 200px; */
+
+  background-size: 70%;
+  border-radius: 5px;
+  
+
+
+
+
+}
+/* contact-us-for-mobile-view  */
+
+.contact-us-for-mobile-view  {
+
+  background-image: url('eduford_img/banner2.jpg');
+
+  /* Ensure correct path */
+  background-size: cover;
+  /* Covers the entire div */
+  background-position: center;
+  /* Centers the image */
+  background-repeat: no-repeat;
+  /* Prevents repetition */
+  /* background-attachment: fixed; */
+  /* Optional: Keeps it fixed on scroll */
+
+  /* object-fit: cover; */
+  /* height: 500px; */
+  /* Ensures image height fits the container */
+  /* width: 100; */
+  /* margin: 200px; */
+
+  
+  border-radius: 5px;
+  /* background-color: black; */
+
+
+
+
+}
+
+
+.button-1 {
+
+  background-color: rgb(222, 54, 54);
+  /* color: white; */
+
+
+
+}
+
+.button-1:hover {
+
+  background-color: rgb(255, 0, 0);
+}
+
+.button-1:active {
+
+  /* color: blue; */
+  box-shadow: 0px 4px 15px blue;
+  /* Shadow on hover */
+  transform: translateY(-5px);
+  /* Optional: lift the card */
+
+
+}
+
+
+
+/* .nav-link:hover {
+
+  color: blue;
+
+
+} */
+
+.nav-link:active {
+
+  /* color: blue; */
+  box-shadow: 0px 4px 15px blue;
+  /* Shadow on hover */
+  transform: translateY(-5px);
+  /* Optional: lift the card */
+
+
+}
+
+.button-for-social-links:hover {
+
+  background-color: red;
+}
+
+
+
+
+/* side-bar0 */
+.container-fluid-2 {
+
+  /* flex-direction: column; */
+  /* height: 100vh; */
+  /* width: 100vw; */
+  align-items: center;
+
+  height: 500px;
+  flex-direction: row;
+
+
+
+
+
+
+
+}
+
+.row-1 {
+
+  height: 100vh;
+
+  width: 20vw;
+
+  justify-content: end;
+
+  background-color: rgb(11, 94, 215);
+
+  color: white;
+
+}
+
+
+/* navbarhide accoding to screen  */
+.hamburder {
+
+
+  font-size: 15px;
+  background-color: rgb(255, 0, 0);
+  margin-top: 0;
+
+  /* line-height: 50px; */
+  /* margin-bottom: 50px; */
+  line-height: 100px;
+ 
+  width: 100vw;
+  /* border: 2px solid black; */
+  font-weight: 100;
+
+
+}
+
+.hamburder-2 {
+
+
+  font-size: 12px;
+  background-color: rgb(255, 0, 0);
+  margin-top: 0;
+
+  /* line-height: 50px; */
+  /* margin-bottom: 50px; */
+  line-height: 100px;
+
+  width: 40vw;
+  /* border: 2px solid black; */
+  height: 100vh;
+  font-weight: 900;
+  color: white;
+}
+
+
+.nav-link-2 {
+
+  color: white;
+  margin-top: 30px;
+  text-decoration: none;
+
+}
+
+/* .nav-link-2:hover {
+
+  color: blue;
+
+
+} */
+
+.nav-link-2:active {
+
+  /* color: blue; */
+  /* box-shadow: 0px 4px 15px rgba(210, 206, 206, 0.2); */
+  /* Shadow on hover */
+  /* transform: translateY(-5px); */
+  /* Optional: lift the card*/
+  border: 2px solid white;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about-page-image */
+.about-page-image-8 {
+  background-image: url('eduford_img/background.jpg');
+  /* Ensure correct path */
+  background-size: cover;
+  /* Covers the entire div */
+  background-position: center;
+  /* Centers the image */
+  background-repeat: no-repeat;
+  /* Prevents repetition */
+  background-attachment: fixed;
+  /* Optional: Keeps it fixed on scroll */
+  background-size: 100% 100%; 
+  
+}
+
+.about-page-image {
+  background-image: url('eduford_img/background.jpg');
+  background-size: cover; /* Ensures the image covers the div */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+
+  height: 200px; /* Adjust this value as needed */
+  width: 100%; /* Ensures full width */
+}
+
+
+ 
+.about-page-main-section-image {
+  background-image: url('eduford_img/about.jpg');
+  /* Ensure correct path */
+  background-size: cover;
+  /* Covers the entire div */
+  background-position: center;
+  /* Centers the image */
+  background-repeat: no-repeat;
+  /* Prevents repetition */
+  /* background-attachment: fixed; */
+  /* Optional: Keeps it fixed on scroll */
+  /* object-fit: cover; */
+}
+
+
+
+/* blog-page-image */
+
+
+.blog-page-image  {
+  background-image: url('eduford_img/certificate.jpg');
+  /* Ensure correct path */
+  background-size: cover;
+  /* Covers the entire div */
+  background-position: center;
+  /* Centers the image */
+  background-repeat: no-repeat;
+  /* Prevents repetition */
+  /* background-attachment: fixed; */
+  /* Optional: Keeps it fixed on scroll */
+  /* object-fit: cover; */
+}
+
+
+
+/* form-for-blog-page  */
+.form-for-blog-page{
+
+  border: 2ps solid black;
+
+}
+
+
+
+.placeholder-color{
+
+  background-color:rgb(239, 239, 239);
+}
+
